@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <h1>InBuilt String Functions</h1>
+    <script>
+        var firstString = "I Love India Love";
+        
+        // length of string
+        console.log(firstString.length);
+
+        //find index of a string in another string returns -1 if not found (case sensitive)
+        console.log(firstString.indexOf("Love"));
+
+        //find Last index of a string in another string
+        console.log(firstString.lastIndexOf("Love"));
+
+        //get part of a string slice(start, end) excluding last index
+        console.log(firstString.slice(0, 5));
+        console.log(firstString.slice(-4)); //from last
+
+        //get sub string function - substr (start, length)
+        console.log(firstString.substr(0, 7));
+        console.log(firstString.substr(7));
+    </script>
+</body>
+</html>
