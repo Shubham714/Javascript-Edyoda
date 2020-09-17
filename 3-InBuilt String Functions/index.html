@@ -26,6 +26,35 @@
         //get sub string function - substr (start, length)
         console.log(firstString.substr(0, 7));
         console.log(firstString.substr(7));
+
+        // part 2
+        var example = "This is js tutorial";
+
+        //toUpperCase() - converts to upper case
+        console.log(example.toUpperCase());
+
+        //toLowerCase() - converts to lower case
+        console.log(example.toLowerCase());
+
+        //concat() - it merge two or more string
+        var firstName = "javascript";
+        var lastname = "tutorial";
+        console.log(firstName.concat(lastname));
+        console.log(example.concat(' ', firstName, ' ', lastname));
+
+        //we can also use '+' to concatenate string
+        console.log(firstName + ' ' + lastname);
+
+        //trim()- removes extra spaces
+        var extraSpaces = '        shubham     ';
+        console.log(extraSpaces.trim());
+
+        //charAt() - takes position as argument returns the character at that position
+        var testString = 'this is test string';
+        console.log(testString.charAt(5));
+
+        // split  split string on the basis of the argument passed
+        console.log(testString.split(' '));
     </script>
 </body>
 </html>
