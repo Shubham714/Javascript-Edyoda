@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12</title>
+</head>
+<body>
+    <h1>Objects</h1>
+    <script>
+        var car = {
+           "omini" : "60 kmph",
+           "swift" : "80 kmph",
+           "turbo" : "55 kmph",
+        };
+        console.log(car);
+        console.log(typeof car);
+
+        var omini = {
+            name: "omini",
+            manufacturer: {
+                name: "suzuki",
+                location: "mumbai",
+            },
+            topSpeed: 100,
+            color: "white",
+            spoiler: false,
+            applyBrakes: function() {
+                setTimeout(function() {
+                    console.log("car stopped");
+                }, 5000)
+            }
+        }
+        console.log(omini.name);
+        console.log(omini.color);
+        console.log(omini.manufacturer);
+        console.log(omini.manufacturer.name);
+        console.log(omini.applyBrakes());
+        console.log(omini.applyBrakes);
+    </script>
+</body>
+</html>
