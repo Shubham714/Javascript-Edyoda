@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9</title>
+</head>
+<body>
+    <h1>comparison and logical operators</h1>
+    <script>
+        // loosely comparison
+        if(5 == '5') { console.log(true); }
+
+        // strict comparison
+        if(5 === 5) { console.log(true); } else { console.log(false); }
+
+        // !=
+        if(5 != 4) { console.log(true); } else { console.log(false); }
+
+        // != strict comparison
+        if(5 !== '5') { console.log(true); } else { console.log(false); }
+
+        // <
+        if(5 < 8) { console.log(true); } else { console.log(false); }
+
+        // <=
+        if(15 <= 15) { console.log(true); } else { console.log(false); }
+
+        // >
+        if(15 > 10) { console.log(true); } else { console.log(false)}
+
+        // >=
+        if(15 >= 15) { console.log(true); } else { console.log(false)}
+
+        // Logical operators &&, ||, !
+        if(5 < 10 && 10 > 15) { console.log(true); } else { console.log(false)}
+
+        // ||
+        console.log( 5 < 10 || 10 > 15);
+
+        // !
+        console.log(!(5 < 10));
+
+        //Ternary operator (expression) ? a : b
+        2 > 3 ? console.log(true) : console.log(false)
+    </script>
+</body>
+</html>
