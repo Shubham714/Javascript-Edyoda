@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13</title>
+</head>
+<body>
+    <h1>Arrays part 1</h1>
+    <script>
+        var myFriends = ['muktesh', 'omkar', 'pravin', 'vikrant', 'amit'];
+        console.log(myFriends);
+        console.log(typeof myFriends);
+        console.log(myFriends[0]);
+
+        // update a value
+        myFriends[4] = 'darshan';
+        console.log(myFriends);
+
+        // add more items
+        myFriends[5] = 'john';
+        console.log(myFriends);
+
+        //myFriends[10] = 'alan'; // if we don't know the length of array
+        //console.log(myFriends);
+
+        // better way to do this
+        myFriends[myFriends.length] = 'rob';
+        console.log(myFriends);
+
+        // or inbuilt function to do the same
+        myFriends.push('tokyo');
+        console.log(myFriends);
+
+        // delete a value
+        var deletedName = myFriends.pop()
+        console.log(deletedName);
+        console.log(myFriends);
+    </script>
+</body>
+</html>
